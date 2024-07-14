@@ -10,7 +10,12 @@ export default function Jobbmedoss() {
           Är du intresserad av att jobba hos oss, skicka gärna en spontansökan? 
           Bifoga CV och personligt brev och märk den Spontanansökan¨ Skicka den
           till rektor {" "}
-          <span style={{ color: " #F87B35" }}>Rektor@rosendalskolan.se</span>
+          <a
+            href=" mailto:Rektor@rosendalskolan.se"
+            style={{ color: " #F87B35", textDecoration: "none" }}
+          >
+            Rektor@rosendalskolan.se
+          </a>
         </p>
         <p>Tjänster</p>
       </div>
